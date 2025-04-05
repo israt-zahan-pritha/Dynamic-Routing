@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <>
       <nav>
-        <ul className="flex flex-row gap-10 mx-auto mb-10">
+        <ul className="max-w-7xl font-medium flex flex-row justify-center gap-20 mx-auto py-8">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -13,6 +13,9 @@ export default function NavBar() {
           </li>
           <li>
             <Link href="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
